@@ -1,0 +1,44 @@
+# Binaries & Build Artifacts
+/bin/
+/build/
+/dist/
+*.exe
+*.out
+*.so
+*.dll
+*.dylib
+
+# Go Modules & Dependencies
+/go/
+vendor/
+*.sum
+
+# IDE & Editor Config Files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs & Debugging Files
+*.log
+*.test
+*.prof
+trace.out
+
+# Temporary Files
+*.tmp
+*.cache
+*.DS_Store
+
+# Coverage & Test Files
+*.cover
+*.cov
+.coverage
+coverage.out
+cover.out
+
+# Compiled Protobuf files (if using gRPC)
+*.pb.go
+
+# Docker-related Files
+docker-compose.override.yml
